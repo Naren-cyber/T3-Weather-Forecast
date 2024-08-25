@@ -120,7 +120,7 @@ const Weather = () => {
     // useEffect hook to trigger a search when the component mounts or when the unit changes
 
     useEffect(() => {
-        search(inputRef?.current?.value||'London');
+        search(inputRef?.current?.value||'Delhi');
     }, [unit]);
 
      // JSX structure of the component
